@@ -13,9 +13,17 @@ what works  | status |
 | x86 | Y |
 | aarch64 | Y |
 | Raspberry Pi 3/4 | ? |
+| Combitable AirMouse c120 | Y |
+| Combitable Keyboard | P |
+| Cobitable mouse | P |
 | Web Addons | Y |
 | HomeScreen | Y |
 | PVR IPTV addon | Y |
 | Youtube TV | Y |
+| Settings App | P |
+| Network Manager | N |
+| Setup Wizard | P |
+| English Language | Y |
+| Russia Language | N |
 
 
