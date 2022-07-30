@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DisplaySet</class>
+ <widget class="QWidget" name="DisplaySet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>346</width>
+    <height>559</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="bg" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>351</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#bg{
+	background-color: rgb(7, 7, 7);
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 57 17pt &quot;Roboto Condensed&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Overscan left: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>296</x>
+      <y>15</y>
+      <width>31</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;
+border: none;
+background-color: rgb(71, 71, 71);
+}
+QPushButton::focus{
+border-color: orange;
+border-width: 1px;
+border-style: solid;
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>15</y>
+      <width>31</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;
+border: none;
+background-color: rgb(71, 71, 71);
+}
+QPushButton::focus{
+border-color: orange;
+border-width: 1px;
+border-style: solid;
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>57</y>
+      <width>31</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;
+border: none;
+background-color: rgb(71, 71, 71);
+}
+QPushButton::focus{
+border-color: orange;
+border-width: 1px;
+border-style: solid;
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>52</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 57 17pt &quot;Roboto Condensed&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Overscan right: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>296</x>
+      <y>57</y>
+      <width>31</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;
+border: none;
+background-color: rgb(71, 71, 71);
+}
+QPushButton::focus{
+border-color: orange;
+border-width: 1px;
+border-style: solid;
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>93</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 57 17pt &quot;Roboto Condensed&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Overscan top: </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>136</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 57 17pt &quot;Roboto Condensed&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>O... bottom: </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>296</x>
+      <y>99</y>
+      <width>31</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;
+border: none;
+background-color: rgb(71, 71, 71);
+}
+QPushButton::focus{
+border-color: orange;
+border-width: 1px;
+border-style: solid;
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>99</y>
+      <width>31</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;
+border: none;
+background-color: rgb(71, 71, 71);
+}
+QPushButton::focus{
+border-color: orange;
+border-width: 1px;
+border-style: solid;
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>296</x>
+      <y>141</y>
+      <width>31</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;
+border: none;
+background-color: rgb(71, 71, 71);
+}
+QPushButton::focus{
+border-color: orange;
+border-width: 1px;
+border-style: solid;
+}</string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>141</y>
+      <width>31</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;
+border: none;
+background-color: rgb(71, 71, 71);
+}
+QPushButton::focus{
+border-color: orange;
+border-width: 1px;
+border-style: solid;
+}</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+    <property name="default">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>190</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="leftl">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>101</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rightl">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>66</y>
+      <width>101</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="topl">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>107</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bottoml">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>148</y>
+      <width>100</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 63 18pt &quot;Noto Sans ExtraCondensed SemiBold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>351</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(48, 48, 48);</string>
+   </property>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>27</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 57 20pt &quot;Roboto Condensed&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Display</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton_2</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_3</tabstop>
+  <tabstop>pushButton_4</tabstop>
+  <tabstop>pushButton_6</tabstop>
+  <tabstop>pushButton_5</tabstop>
+  <tabstop>pushButton_8</tabstop>
+  <tabstop>pushButton_7</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
