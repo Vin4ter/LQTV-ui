@@ -11,6 +11,6 @@ int main(int argc, char *argv[])
    // a.setOrganizationDomain("AlexeyT");
     // a.setApplicationName("stvl");
      qputenv("QT_ASSUME_STDERR_HAS_CONSOLE", "1");
-    w.show();
+    w.showFullScreen();
     return a.exec();
 }
