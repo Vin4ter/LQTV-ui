@@ -3,6 +3,7 @@ a lightweight shell for working on smart TVs. LXTV-ui - Lightweight Wayland TV u
 # Screenshots
 ![alt text](image.png)
 ![alt text](image02.png)
+![alt text](image03.png)
 # Functions
 what works  | status |
 | --- | --- |
