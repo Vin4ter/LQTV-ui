@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/cut.png</file>
+        <file>res/iptv.png</file>
+        <file>res/kodian.png</file>
+        <file>res/youtube.png</file>
+        <file>res/font/Nunito-Bold.ttf</file>
+        <file>res/font/Nunito-ExtraBold.ttf</file>
+        <file>res/font/Nunito-ExtraBoldItalic.ttf</file>
+        <file>res/font/Nunito-Light.ttf</file>
+        <file>res/font/Nunito-Medium.ttf</file>
+        <file>res/font/Nunito-MediumItalic.ttf</file>
+        <file>res/font/Nunito-Regular.ttf</file>
+        <file>res/font/Nunito-SemiBold.ttf</file>
+        <file>res/wifi.png</file>
+        <file>res/smart-tv.png</file>
+        <file>res/setting.png</file>
+        <file>res/settingsw.png</file>
+        <file>res/icons8-settings-48.png</file>
+        <file>res/icons8-shutdown-48.png</file>
+        <file>res/progress.gif</file>
+        <file>res/display.png</file>
+        <file>res/info.png</file>
+        <file>res/ipmini.png</file>
+        <file>res/settingfocus.png</file>
+        <file>res/shutdownblack.png</file>
+        <file>res/cicles.gif</file>
+    </qresource>
+</RCC>
