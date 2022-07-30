@@ -33,14 +33,14 @@ Web addons - this is web app on cdn js, html5, css5 optimized for big screen. <b
     1)In the root of the web application, create a text file addon.conf; <br />
     2)fill in this file with these lines: <br />
         [app] <br />
-        name=<addonName> <br />
-        program=<addon type game or app> <br />
-        author=<author name> <br />
-        description=<desciption> <br />
-        icon=<icon.png in root derictory> <br />
-        type=0 <no edit> <br />
+        name=addonName <br />
+        program=addon type game or app <br />
+        author=author name <br />
+        description=desciption <br />
+        icon=icon.png //in root derictory <br />
+        type=0 //no edit <br />
         scale=1 <default 1 no edit> <br />
-        path=<addonName>/index.html <br />
+        path=addonName/index.html <br />
      3) Create a zip archive of the adon content and give the name <addonName> <br />
  # Example addon
  https://github.com/Vin4ter/LWTV-ui/blob/main/test2.zip
