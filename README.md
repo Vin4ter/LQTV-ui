@@ -27,7 +27,7 @@ what works  | status |
 | Russia Language | N |
 
 # How Create your web Addon?
-Web addons - this is web app on cdn js, html5, css5 optimized for big screen.
+Web addons - this is web app on cdn js, html5, css5 optimized for big screen./n
 1)you can implement a web application in html5 js css for large screens and put it in special packages
 2) After you have index.html and the application sources themselves, you can pack a special addon:
     1)In the root of the web application, create a text file addon.conf;
