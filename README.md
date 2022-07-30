@@ -1,5 +1,5 @@
-# LWTV-ui
-a lightweight shell for working on smart TVs. LXTV-ui - Lightweight Wayland TV ui.
+# LQTV-ui
+a lightweight shell for working on smart TVs. LQTV-ui - Lightweight qt widgets TV ui.
 # Screenshots
 ![alt text](image.png)
 ![alt text](image02.png)
