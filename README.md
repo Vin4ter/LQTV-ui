@@ -42,4 +42,5 @@ Web addons - this is web app on cdn js, html5, css5 optimized for big screen. <b
         scale=1 <default 1 no edit> <br />
         path=<addonName>/index.html <br />
      3) Create a zip archive of the adon content and give the name <addonName> <br />
-     
+ #Example addon
+ https://github.com/Vin4ter/LWTV-ui/blob/main/test2.zip
